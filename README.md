@@ -36,3 +36,7 @@ sudo apt install nginx-module-njs
 ```
 
 ### Step 4: Watch [this](youtube.com/watch?v=dQw4w9WgXcQ)
+
+### Step 5: Chill
+
+If you have already set [this](https://github.com/tobycm/code-server-instance-manager-nginx/) up, you can run nginx with sudo nginx.
