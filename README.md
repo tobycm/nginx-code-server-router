@@ -35,7 +35,7 @@ sudo apt update
 sudo apt install nginx-module-njs
 ```
 
-### Step 4: Watch [this](youtube.com/watch?v=dQw4w9WgXcQ)
+### Step 4: Watch [this](https://youtube.com/watch?v=dQw4w9WgXcQ)
 
 ### Step 5: Chill
 
