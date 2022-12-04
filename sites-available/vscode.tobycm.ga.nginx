@@ -1,0 +1,14 @@
+server {
+    listen 32943;
+    server_name code_server;
+
+    location ~ / {
+        js_set $endpoint vscodeRouting.redirectUser;
+        proxy_pass http://$endpoint;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection "upgrade";
+        add_header Cache-Control "no-cache";
+        add_header Content-Security-Policy "connect-src 'self' open-vsx.org";
+
+    }
+}
