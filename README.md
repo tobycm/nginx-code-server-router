@@ -1,7 +1,5 @@
 # NGINX code-server router
 
-# Breaking right now, please wait until further notice
-
 ## How to install
 
 ### Prerequisites
